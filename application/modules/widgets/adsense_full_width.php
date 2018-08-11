@@ -1,0 +1,1 @@
+<span><img class="img-responsive" alt="Ad1" src="../application/modules/themes/views/default/assets/123.png"></span>
