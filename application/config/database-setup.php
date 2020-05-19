@@ -47,11 +47,11 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'db_host';
-$db['default']['username'] = 'db_user';
-$db['default']['password'] = 'db_pass';
-$db['default']['database'] = 'db_name';
-$db['default']['dbprefix'] = 'db_prefix';
+$db['default']['hostname'] = 'localhost:3306';
+$db['default']['username'] = 'root';
+$db['default']['password'] = '';
+$db['default']['database'] = 'sispor';
+$db['default']['dbprefix'] = 'sis_';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['pconnect'] = TRUE;
 $db['default']['db_debug'] = TRUE;

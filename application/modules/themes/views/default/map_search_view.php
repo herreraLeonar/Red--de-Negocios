@@ -224,8 +224,8 @@ function result_js(result)
 function initialize() {
 
 
-    var myLatitude = parseFloat('<?php echo get_settings("banner_settings","map_latitude", 37.2718745); ?>');
-    var myLongitude = parseFloat('<?php echo get_settings("banner_settings","map_longitude", -119.2704153); ?>');
+    var myLatitude = parseFloat('<?php echo get_settings("banner_settings","map_latitude", 0); ?>');
+    var myLongitude = parseFloat('<?php echo get_settings("banner_settings","map_longitude", 0); ?>');
     var zoomLevel = parseInt('<?php echo get_settings("banner_settings","map_zoom",8); ?>');
 
     var myLatlng = new google.maps.LatLng(myLatitude,myLongitude);

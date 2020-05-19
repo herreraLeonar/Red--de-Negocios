@@ -25,7 +25,7 @@ $config	= $xml->xpath('//config');
         white-space: nowrap;
     }
 </style>
-<script src="//maps.googleapis.com/maps/api/js?v=3.exp"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASjI6VyKF2S9lQuQvDIDlHukKW4rGtgmk"></script>
 <script src="<?php echo base_url();?>assets/admin/js/markercluster.min.js"></script>
 <script src="<?php echo theme_url();?>/assets/js/jquery.tooltipster.min.js"></script>
 <script src="<?php echo theme_url();?>/assets/js/map-icons.min.js"></script>
@@ -37,9 +37,11 @@ $config	= $xml->xpath('//config');
     function initialize() {
 
 
-            var myLatitude = parseFloat('<?php echo get_settings("banner_settings","map_latitude", 37.2718745); ?>');
-            var myLongitude = parseFloat('<?php echo get_settings("banner_settings","map_longitude", -119.2704153); ?>');
-            var zoomLevel = parseInt('<?php echo get_settings("banner_settings","map_zoom",8); ?>');
+            var myLatitude = parseFloat('<?php echo get_settings("banner_settings","map_latitude", "yes"); ?>');
+            console.log(myLatitude);
+            var myLongitude = parseFloat('<?php echo get_settings("banner_settings","map_longitude", "yes"); ?>');
+            console.log(myLongitude);
+            var zoomLevel = parseInt('<?php echo get_settings("banner_settings","map_zoom","yes"); ?>');
             var map_data = jQuery.parseJSON('<?php echo json_encode($posts); ?>');
 
             var myLatlng = new google.maps.LatLng(myLatitude,myLongitude);

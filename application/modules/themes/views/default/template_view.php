@@ -7,7 +7,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
     <meta charset="utf-8">
-
     <?php
 
     $page = get_current_page();
@@ -69,6 +68,24 @@
     ?>
 
 <style>
+.modal-dialog {
+  margin-top: 0rem;
+  max-width: 100%;
+  
+  .modal-content {
+    border-radius: 0rem;
+  }
+  
+  .buttons {
+    .btn {
+      margin: 0.2rem;
+    }
+  }
+}
+
+
+
+
     .top-bar{
         background: <?php echo $top_bar_bg_color;?>; 
     }
@@ -116,7 +133,36 @@
     }
 </style>
 
-<script type="text/javascript">var old_ie = 0;</script>
+<script type="text/javascript">
+var old_ie = 0;
+
+$(document).ready(function() { 
+    if(getCookie('okCookies') !== 'ok')
+        $('#cookieModal').modal('show');
+
+        setTimeout(() => {  okPolicy(); }, 20000);
+});
+function okPolicy() {
+    document.cookie = 'okCookies=ok';
+}
+
+function getCookie(cname) {
+  var name = cname + "=";
+  var decodedCookie = decodeURIComponent(document.cookie);
+  var ca = decodedCookie.split(';');
+  for(var i = 0; i <ca.length; i++) {
+    var c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
+
+</script>
 <!--[if lte IE 8]> <script type="text/javascript"> old_ie = 1; </script> < ![endif]-->
 
 </head>
@@ -166,6 +212,26 @@ if($curr_lang=='ar' || $curr_lang=='fa' || $curr_lang=='he' || $curr_lang=='ur')
 <div class="main-block">
     <?php echo (isset($content))?$content:'';?>
 </div>
+
+
+<!------------------------------------------------------------ cookies notification  -->
+<div class="modal fade" id="cookieModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div class="notice d-flex justify-content-between align-items-center">
+          <div class="cookie-text"> <?php echo lang_key('InfoPolitic');?></div>
+          <div class="buttons d-flex flex-column flex-lg-row">
+            <input type="button" class="btn btn-success btn-sm" data-dismiss="modal"  value="<?php echo lang_key('Ok');?>" onclick="okPolicy()"></input>
+            <a href="/cookies-policy" class="btn btn-secondary btn-sm" data-dismiss="modal"><?php echo lang_key('Learn_more');?></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!------------------------------------------------------------- end cookies notification  -->
+
 
 <!-- Main content ends -->
 <?php require_once 'footer.php'; ?>

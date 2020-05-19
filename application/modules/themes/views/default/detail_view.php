@@ -517,7 +517,7 @@
     </div>
 
 </div>
-<script src="//maps.googleapis.com/maps/api/js?v=3.exp&libraries=places"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASjI6VyKF2S9lQuQvDIDlHukKW4rGtgmk&libraries=places"></script>
 <script src="<?php echo theme_url();?>/assets/js/markercluster.min.js"></script>
 <script src="<?php echo theme_url();?>/assets/js/map-icons.min.js"></script>
 <script src="<?php echo theme_url();?>/assets/js/map_config.js"></script>
@@ -718,14 +718,13 @@
                 path: SQUARE_PIN,
                 fillColor: '#ed5441',
                 fillOpacity: 1,
-                strokeColor: '',
+                strokeColor: '#ed5441',
                 strokeWeight: 0,
-                scale: 1/3
+                scale: 1/3,
             },
-            label: '<i class="fa <?php echo $fa_icon; ?>"></i>'
-
-
+            label: '<i style="color: white;" class="fa <?php echo $fa_icon; ?>"></i>'
         });
+
 
         google.maps.event.addListener(marker, 'click', (function(marker, i) {
 

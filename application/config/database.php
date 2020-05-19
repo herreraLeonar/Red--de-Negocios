@@ -47,10 +47,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'sisporne_root';
-$db['default']['password'] = 'sispor';
-$db['default']['database'] = 'sisporne_web';
+$db['default']['hostname'] = 'localhost:3306';
+$db['default']['username'] = 'root';
+$db['default']['password'] = '';
+$db['default']['database'] = 'sispor';
 $db['default']['dbprefix'] = 'sis_';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['pconnect'] = FALSE;
