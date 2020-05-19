@@ -329,7 +329,7 @@ $config	= $xml->xpath('//config');
     </div>
     <div class="row">
       <div class="col-md-12">
-        <a href="http://webhelios.com/app/whizbiz/codecanyon/doc" target="_blank" class="btn btn-info"><?php echo lang_key('see_full_documentation');?></a>
+        <a href="http://reservaweb.es" target="_blank" class="btn btn-info"><?php echo lang_key('see_full_documentation');?></a>
       </div>
     </div> 
 <style type="text/css">
