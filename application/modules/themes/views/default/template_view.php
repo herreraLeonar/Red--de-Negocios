@@ -137,10 +137,11 @@
 var old_ie = 0;
 
 $(document).ready(function() { 
-    if(getCookie('okCookies') !== 'ok')
+    if(getCookie('okCookies') !== 'ok'){
         $('#cookieModal').modal('show');
 
         setTimeout(() => {  okPolicy(); }, 20000);
+    }
 });
 function okPolicy() {
     document.cookie = 'okCookies=ok';
