@@ -78,23 +78,21 @@ $config	= $xml->xpath('//config');
 
             if(map_data.posts.length > 0){
                 for (i = 0; i < map_data.posts.length; i++) {
-
-                    var marker_label = '<i class="fa '+ map_data.posts[i].fa_icon + '"></i>';
-                    console.log(marker_label);
+                    var image = {
+                      url: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',//map_data.posts[i].featured_image_url,
+                      // This marker is 20 pixels wide by 32 pixels high.
+                      size: new google.maps.Size(20, 32),
+                      // The origin for this image is (0, 0).
+                      origin: new google.maps.Point(0, 0),
+                      // The anchor for this image is the base of the flagpole at (0, 32).
+                      anchor: new google.maps.Point(0, 32)
+                    };
                     marker = new Marker({
                         position: new google.maps.LatLng(map_data.posts[i].latitude, map_data.posts[i].longitude),
                         map: map,
-                        label: marker_label,
                         title: map_data.posts[i].post_title,
                         zIndex: 9,
-                        icon: {
-                            path: SQUARE_PIN,
-                            fillColor: map_data.posts[i].fa_color,
-                            fillOpacity: 1,
-                            strokeColor: '',
-                            strokeWeight: 0,
-                            scale: 1/3
-                        }
+                        icon: image,
 
                     });
 

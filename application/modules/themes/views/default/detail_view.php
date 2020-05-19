@@ -705,7 +705,15 @@
         var marker, i;
 
         var markers = [];
-
+        var image = {
+                      url: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',//map_data.posts[i].featured_image_url,
+                      // This marker is 20 pixels wide by 32 pixels high.
+                      size: new google.maps.Size(20, 32),
+                      // The origin for this image is (0, 0).
+                      origin: new google.maps.Point(0, 0),
+                      // The anchor for this image is the base of the flagpole at (0, 32).
+                      anchor: new google.maps.Point(0, 32)
+                    };
         marker = new Marker({
 
             position: myLatlng,
@@ -714,15 +722,7 @@
 
             title: '<?php echo get_post_data_by_lang($post,"title"); ?>',
             zIndex: 9,
-            icon: {
-                path: SQUARE_PIN,
-                fillColor: '#ed5441',
-                fillOpacity: 1,
-                strokeColor: '#ed5441',
-                strokeWeight: 0,
-                scale: 1/3,
-            },
-            label: '<i style="color: white;" class="fa <?php echo $fa_icon; ?>"></i>'
+            icon: image
         });
 
 

@@ -95,6 +95,7 @@ type : Tipo
 type_something : Escriba algo
 content : Contenido
 featured_image : Foto principal
+img_map: Icono imagen del google map
 category : Categoría
 all_categories : Todas las categorías
 edit_category : Editar la categoría

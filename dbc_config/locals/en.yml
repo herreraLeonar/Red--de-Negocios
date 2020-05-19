@@ -94,6 +94,7 @@ type: Type
 type_something: Type something
 content: Content
 featured_image: Featured Image
+img_map: Google Map Imagen Icon
 category: Category
 all_categories: All categories
 edit_category: Edit category
