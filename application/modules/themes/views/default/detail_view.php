@@ -517,7 +517,7 @@
     </div>
 
 </div>
-<script src="//maps.googleapis.com/maps/api/js?v=3.exp&libraries=places"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASjI6VyKF2S9lQuQvDIDlHukKW4rGtgmk&libraries=places"></script>
 <script src="<?php echo theme_url();?>/assets/js/markercluster.min.js"></script>
 <script src="<?php echo theme_url();?>/assets/js/map-icons.min.js"></script>
 <script src="<?php echo theme_url();?>/assets/js/map_config.js"></script>

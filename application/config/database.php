@@ -47,10 +47,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'sisporne_root';
-$db['default']['password'] = 'sispor';
-$db['default']['database'] = 'sisporne_web';
+$db['default']['hostname'] = 'db5000409808.hosting-data.io';
+$db['default']['username'] = 'dbu566328';
+$db['default']['password'] = 'Basededatos2020@';
+$db['default']['database'] = 'dbs391944';
 $db['default']['dbprefix'] = 'sis_';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['pconnect'] = FALSE;
