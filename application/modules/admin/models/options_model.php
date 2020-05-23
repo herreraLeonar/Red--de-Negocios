@@ -6,8 +6,8 @@
  *
  * @package		Admin
  * @subpackage	options_model
- * @author		webhelios
- * @link		http://webhelios.com
+ * @author		sispor
+ * @link		http://sispor.com
  */
 require_once'options_model_core.php';
 class Options_model extends Options_model_core {

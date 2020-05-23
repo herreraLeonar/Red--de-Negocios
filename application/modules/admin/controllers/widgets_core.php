@@ -6,8 +6,8 @@
  *
  * @package		Admin
  * @subpackage	Widgets
- * @author		webhelios
- * @link		http://webhelios.com
+ * @author		sispor
+ * @link		http://sispor.com
  */
 
 class Widgets_core extends CI_Controller {

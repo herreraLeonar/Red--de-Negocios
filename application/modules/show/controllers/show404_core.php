@@ -6,8 +6,8 @@
  *
  * @package		Memento404
  * @subpackage	Memento404Core
- * @author		webhelios
- * @link		http://webhelios.com
+ * @author		sispor
+ * @link		http://sispor.com
  */
 
 class Show404_core extends CI_controller {

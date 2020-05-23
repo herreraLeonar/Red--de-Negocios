@@ -6,8 +6,8 @@
  *
  * @package		Admin
  * @subpackage	Page
- * @author		webhelios
- * @link		http://webhelios.com
+ * @author		sispor
+ * @link		http://sispor.com
  */
 
 class Slider_core extends CI_Controller {

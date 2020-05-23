@@ -6,8 +6,8 @@
  *
  * @package		Admin
  * @subpackage	google translate
- * @author		webhelios
- * @link		http://webhelios.com
+ * @author		sispor
+ * @link		http://sispor.com
  */
 
 class Translate{

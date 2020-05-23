@@ -4,7 +4,7 @@
 	</button>
 	<a class="navbar-brand" href="<?php echo site_url('admin');?>">
 	<small>
-	<img src="<?php echo base_url('assets/admin/img/logo_webhelios_64.png')?>"  style="height:30px">
+	<img src="<?php echo base_url('assets/admin/img/logo_sispor_64.png')?>"  style="height:30px">
 	<span>Sispor Negocios</span> </small>
 	</a>
 

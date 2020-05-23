@@ -6,8 +6,8 @@
  *
  * @package		Admin
  * @subpackage	Purchase
- * @author		webhelios
- * @link		http://webhelios.com
+ * @author		sispor
+ * @link		http://sispor.com
  */
 
 class Purchase_core extends CI_Controller {
@@ -62,7 +62,7 @@ class Purchase_core extends CI_Controller {
 			}
 			else
 			{
-				$this->session->set_flashdata('msg', '<div class="alert alert-danger">Failed to connect with webhelios.</div>');
+				$this->session->set_flashdata('msg', '<div class="alert alert-danger">Failed to connect with sispor.</div>');
 				redirect(site_url('admin/purchase/regdomain'));
 			}
 						

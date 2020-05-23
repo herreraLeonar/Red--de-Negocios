@@ -6,8 +6,8 @@
  *
  * @package		Show
  * @subpackage	Show
- * @author		webhelios
- * @link		http://webhelios.com
+ * @author		sispor
+ * @link		http://sispor.com
  */
 require_once 'show_core.php';
 class Show extends Show_core {

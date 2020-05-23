@@ -6,8 +6,8 @@
  *
  * @package		Admin
  * @subpackage	themes
- * @author		webhelios
- * @link		http://webhelios.com
+ * @author		sispor
+ * @link		http://sispor.com
  */
 
 require_once'themes_core.php';

@@ -7,8 +7,8 @@
  *
  * @package		Show
  * @subpackage	ReviewModelCore
- * @author		webhelios
- * @link		http://webhelios.com
+ * @author		sispor
+ * @link		http://sispor.com
  */
 
 

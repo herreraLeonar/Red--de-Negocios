@@ -6,8 +6,8 @@
  *
  * @package		Show
  * @subpackage	ReviewModel
- * @author		webhelios
- * @link		http://webhelios.com
+ * @author		sispor
+ * @link		http://sispor.com
  */
 require_once'review_model_core.php';
 class Review_model extends Review_model_core {

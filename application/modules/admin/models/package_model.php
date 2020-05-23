@@ -6,8 +6,8 @@
  *
  * @package		Admin
  * @subpackage	package_model
- * @author		webhelios
- * @link		http://webhelios.com
+ * @author		sispor
+ * @link		http://sispor.com
  */
 
 require_once'package_model_core.php';

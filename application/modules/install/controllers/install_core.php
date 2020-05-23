@@ -6,8 +6,8 @@
  *
  * @package		Install
  * @subpackage	Install
- * @author		webhelios
- * @link		http://webhelios.com
+ * @author		sispor
+ * @link		http://sispor.com
  */
 
 class Install_core extends CI_Controller {

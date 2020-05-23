@@ -7,8 +7,8 @@
  *
  * @package		Show
  * @subpackage	ShowCore
- * @author		webhelios
- * @link		http://webhelios.com
+ * @author		sispor
+ * @link		http://sispor.com
  */
 
 

@@ -6,8 +6,8 @@
  *
  * @package		Admin
  * @subpackage	plugins
- * @author		webhelios
- * @link		http://webhelios.com
+ * @author		sispor
+ * @link		http://sispor.com
  */
 require_once'plugins_core.php';
 class Plugins extends Plugins_core {

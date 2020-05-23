@@ -56,7 +56,7 @@
 
 	<div id="footer">
       <div class="container">
-        <p class="muted credit">Developed By <a href="http://www.webhelios.com">webhelios</a></p>
+        <p class="muted credit">Developed By <a href="http://www.sispor.com">sispor</a></p>
       </div>
     </div>
     

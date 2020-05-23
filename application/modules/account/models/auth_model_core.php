@@ -6,8 +6,8 @@
  *
  * @package		Account
  * @subpackage	models/auth
- * @author		webhelios
- * @link		http://webhelios.com
+ * @author		sispor
+ * @link		http://sispor.com
  */
 
 

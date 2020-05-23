@@ -7,8 +7,8 @@
  *
  * @package		Account
  * @subpackage	Account
- * @author		webhelios
- * @link		http://webhelios.com
+ * @author		sispor
+ * @link		http://sispor.com
  */
 
 

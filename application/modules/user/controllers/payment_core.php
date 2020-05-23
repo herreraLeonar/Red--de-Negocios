@@ -14,9 +14,9 @@
 
  * @subpackage	UserCore
 
- * @author		webhelios
+ * @author		sispor
 
- * @link		http://webhelios.com
+ * @link		http://sispor.com
 
  */
 

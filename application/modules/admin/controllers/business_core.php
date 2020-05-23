@@ -6,8 +6,8 @@
  *
  * @package		Admin
  * @subpackage	business
- * @author		webhelios
- * @link		http://webhelios.com
+ * @author		sispor
+ * @link		http://sispor.com
  */
 
 require_once'translate.php';

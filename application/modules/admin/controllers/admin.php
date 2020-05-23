@@ -6,8 +6,8 @@
  *
  * @package		Admin
  * @subpackage	Admin
- * @author		webhelios
- * @link		http://webhelios.com
+ * @author		sispor
+ * @link		http://sispor.com
  */
 require_once'admin_core.php';
 class Admin extends Admin_core {

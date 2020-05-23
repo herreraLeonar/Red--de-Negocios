@@ -268,7 +268,7 @@
                                 $comment_settings = get_settings('business_settings', 'enable_comment', 'No');
                                 if($comment_settings == 'Disqus Comment')
                                 {
-                                    $disqus_shortname = get_settings('business_settings', 'disqus_shortname', 'webhelios');
+                                    $disqus_shortname = get_settings('business_settings', 'disqus_shortname', 'sispor');
 
                                 ?>
                                 <div id="disqus_thread"></div>

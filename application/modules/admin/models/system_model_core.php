@@ -6,8 +6,8 @@
  *
  * @package		Admin
  * @subpackage	System_model_core
- * @author		webhelios
- * @link		http://webhelios.com
+ * @author		sispor
+ * @link		http://sispor.com
  */
 
 class System_model_core extends CI_Model 

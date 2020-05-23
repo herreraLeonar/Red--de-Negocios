@@ -6,8 +6,8 @@
  *
  * @package		Admin
  * @subpackage	themes_model_core
- * @author		webhelios
- * @link		http://webhelios.com
+ * @author		sispor
+ * @link		http://sispor.com
  */
 
 class Themes_model_core extends CI_Model 

@@ -6,8 +6,8 @@
  *
  * @package		Install
  * @subpackage	Install
- * @author		webhelios
- * @link		http://webhelios.com
+ * @author		sispor
+ * @link		http://sispor.com
  */
 require_once'install_core.php';
 class Install extends Install_core {

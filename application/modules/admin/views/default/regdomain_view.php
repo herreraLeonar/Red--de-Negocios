@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Webhelios | Admin Panel</title>
+    <title>sispor | Admin Panel</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php include 'template/includes_top.php';?>
@@ -16,8 +16,8 @@
   <?php //include 'template/theme_settings.php';?>
     <div class="container" id="main-container">
         <div class="domreg">
-          <h4>Please register your Whizbiz with webhelios</h4>
-          <p>You need to register you copy of Whizbiz first with webhelios.</p>
+          <h4>Please register your Whizbiz with sispor</h4>
+          <p>You need to register you copy of Whizbiz first with sispor.</p>
           <div class="row" style="text-align:center">
               <div class="col-md-4" stye="margin:0 auto;"></div>
               <div class="col-md-4" stye="margin:0 auto;">

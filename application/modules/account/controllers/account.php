@@ -7,7 +7,7 @@
  * @package		bookit
  * @subpackage	Admin
  * @author		sc mondal
- * @link		http://scmondal.webhelios.com
+ * @link		http://scmondal.sispor.com
  */
 require_once'account_core.php';
 class Account extends Account_core {

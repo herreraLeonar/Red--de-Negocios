@@ -6,8 +6,8 @@
  *
  * @package		User
  * @subpackage	User
- * @author		webhelios
- * @link		http://webhelios.com
+ * @author		sispor
+ * @link		http://sispor.com
  */
 require_once'user_core.php';
 class User extends User_core {

@@ -6,8 +6,8 @@
  *
  * @package		Admin
  * @subpackage	distance_info_model_core
- * @author		webhelios
- * @link		http://webhelios.com
+ * @author		sispor
+ * @link		http://sispor.com
  */
 
 

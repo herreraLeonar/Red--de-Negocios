@@ -6,8 +6,8 @@
  *
  * @package		Admin
  * @subpackage	category_model_core
- * @author		webhelios
- * @link		http://webhelios.com
+ * @author		sispor
+ * @link		http://sispor.com
  */
 class Business_model_core extends CI_Model
 {

@@ -6,8 +6,8 @@
  *
  * @package		Admin
  * @subpackage	system
- * @author		webhelios
- * @link		http://webhelios.com
+ * @author		sispor
+ * @link		http://sispor.com
  */
 require_once'system_core.php';
 class System extends System_core {
